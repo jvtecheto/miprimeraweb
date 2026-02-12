@@ -1,48 +1,55 @@
 <!doctype html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pagina web de aprendizaje</title>
-        <link rel="stylesheet" href="./css/styles.css" />
-        <style>
-            .parrafo {
-                color: burlywood;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Mi Primera Web pruebas</h1>
-        <a href="./pages/contacto.html">Ir a la pagina de contacto</a><br />
-        <!-- Establecer fecha y hora. -->
-        <time>04/02/2026 09:44</time>
-        <p title="Ejemplo de uso del atributo title">
-            La pagina del navegador se actualiza con Ctrl+F5
-        </p>
-        <p id="parrafo1">
-            para incluir el archivo css abreviatura es link:css y tab para
-            completar.
-        </p>
-        <!-- atritubo data. data-ejemplo -->
-        <p id="parrafo2" data-ejemplo="Datos de ejemplo">
-            Lorem ipsum dolor sit amet consectetur adipisicing, elit.br<br />
-            Doloremque asperiores quos laudantium sit perspiciatis fugiat,
-            temporibus illum aut ipsum alias accusamus officia eius debitis quas
-            laborum modi eos dignissimos eligendi.
-        </p>
-        <p>Dia 02/02/2026 probando git con ST4</p>
-        <p class="parrafo">
-            Muy importante en html es elementos de bloque y elementos de linea,
-            para su visualizacionel p = parrafo es un elemento de bloque ocupa
-            todo el espacio a su derecha.
-        </p>
 
-        <script>
-            // Codigo Javascript
-            const p = document.getElementById("parrafo1");
-            const p2 = document.getElementById("parrafo2");
-            console.log(p.textContent);
-            console.log(p2.dataset.ejemplo);
-        </script>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pagina web de aprendizaje</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <style>
+    .parrafo {
+      color: burlywood;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Mi Primera Web pruebas</h1>
+  <a href="./pages/contacto.html">Ir a la pagina de contacto</a><br />
+  <!-- Establecer fecha y hora. -->
+  <time>04/02/2026 09:44</time>
+  <p title="Ejemplo de uso del atributo title">
+    La pagina del navegador se actualiza con Ctrl+F5
+  </p>
+  <p id="parrafo1">
+    para incluir el archivo css abreviatura es link:css y tab para
+    completar.
+  </p>
+  <!-- atritubo data. data-ejemplo -->
+  <p id="parrafo2" data-ejemplo="Datos de ejemplo">
+    Lorem ipsum dolor sit amet consectetur adipisicing, elit.br<br />
+    Doloremque asperiores quos laudantium sit perspiciatis fugiat,
+    temporibus illum aut ipsum alias accusamus officia eius debitis quas
+    laborum modi eos dignissimos eligendi.
+  </p>
+  <p>Dia 02/02/2026 probando git con ST4</p>
+  <p class="parrafo">
+    Muy importante en html es elementos de bloque y elementos de linea,
+    para su visualizacionel p = parrafo es un elemento de bloque ocupa
+    todo el espacio a su derecha.
+  </p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ratione et iste esse accusantium eius magnam
+    repellat illo, reiciendis unde dicta officiis, dignissimos ducimus consequuntur asperiores nulla suscipit sint
+    voluptatem.
+  </p>
+
+  <script>
+    // Codigo Javascript
+    const p = document.getElementById("parrafo1");
+    const p2 = document.getElementById("parrafo2");
+    console.log(p.textContent);
+    console.log(p2.dataset.ejemplo);
+  </script>
+</body>
+
 </html>
